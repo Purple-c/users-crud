@@ -1,0 +1,22 @@
+{
+  "name": "users-crud",
+  "version": "1.0.0",
+  "description": "Aplicacion de usuarios con CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoryvicent/users-crud.git"
+  },
+  "author": "Gregory Vicent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoryvicent/users-crud/issues"
+  },
+  "homepage": "https://github.com/gregoryvicent/users-crud#readme",
+  "devDependencies": {
+    "tailwindscss": "^0.3.0"
+  }
+}
