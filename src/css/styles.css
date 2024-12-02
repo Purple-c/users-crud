@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background: seagreen;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 40px 28px;
+}
+
+.input-box{
+    margin: 10px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 30px;
+
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+    color:white;
+
+}
+
+.btc-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.btc-box #btc{
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.input-box2{
+    display: flex;
+   
+}
